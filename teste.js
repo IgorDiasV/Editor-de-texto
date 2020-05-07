@@ -1,4 +1,7 @@
 function checkMe()
 {
-    alert(window.getSelection());
+    if(window.getSelection()!="")
+    {
+        alert(window.getSelection());
+    }
 }
