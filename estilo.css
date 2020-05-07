@@ -1,7 +1,9 @@
-textarea{
+div{
     resize:none; /* faz com que o textarea não seja redimensionável */
     /* centraliza o textarea */
     display: block;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto; 
+    height: 1000px;
+    width: 800px; 
 }
