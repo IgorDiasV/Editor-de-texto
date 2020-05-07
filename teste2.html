@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MudarCor</title>
+    <style></style>
+</head>
+    
+<body>
+    <textarea  id="txt" cols="70" rows="50">Teste</textarea>
+</body>
+<script>
+    function cor(obj,cor){
+        obj.style.color=cor
+    }
+    var obj=document.getElementById("txt")
+    obj.addEventListener("select",function(event){
+        cor(obj,"blue")
+    })
+
+</script>
+</html>
