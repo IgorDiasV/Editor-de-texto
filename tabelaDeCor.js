@@ -36,9 +36,10 @@ for (var cc=0;cc<cont;cc++){
     div.appendChild(d[cc]);
     cor(d[cc],armazenaCor[cc]);
     d[cc].id=armazenaCor[cc];
-    d[cc].onclick=function (e)
+    let a =d[cc].id;
+    d[cc].onclick=function ()
     {
-        alert(00);
+        alert(a);
     }
     //alert(d[cc].id)
 }
