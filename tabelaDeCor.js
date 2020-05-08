@@ -31,8 +31,15 @@ for (var cc=0;cc<cont;cc++){
     var div = document.querySelector("div");
     var d=[];
     d[cc] = document.createElement("div");
+    
     //d[cc].innerHTML=armazenaCor[cc];
     div.appendChild(d[cc]);
     cor(d[cc],armazenaCor[cc]);
+    d[cc].id=armazenaCor[cc];
+    d[cc].onclick=function (e)
+    {
+        alert(00);
+    }
+    //alert(d[cc].id)
 }
 
