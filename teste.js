@@ -12,3 +12,10 @@ function italico()
           document.execCommand("italic");
     }
 }
+function mudarCor(cor )
+{
+    document.execCommand('foreColor', false, "#483D8B");
+    alert(cor)
+    
+    
+}

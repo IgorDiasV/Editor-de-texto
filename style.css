@@ -1,15 +1,16 @@
-#principal{
+#cores{
     border: solid black;
     padding: 5px;
     height: 100px;
     width: 100px;
     overflow-x: scroll;
-    
+    float: left ;
+    display:none;
 }
-div{
+#cor{
     height: 10px;
     width: 10px;
     border: solid 1px black;
     display: inline-block;
-    
+       
 }
