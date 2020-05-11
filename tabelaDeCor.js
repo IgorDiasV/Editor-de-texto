@@ -32,7 +32,7 @@ function cor (cc,cor){
 for (var cc=0;cc<cont;cc++){
     
     var d=[];
-    d[cc] = document.createElement("div");
+    d[cc] = document.createElement("button");
     
     //d[cc].innerHTML=armazenaCor[cc];
     div.appendChild(d[cc]);
