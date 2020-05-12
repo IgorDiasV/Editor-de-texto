@@ -7,18 +7,16 @@
         <link rel="stylesheet" type="text/css" href="estilo.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="teste.js"></script>
-        
-        
-
-       
+          
     </head>
     <body>
         <div id="principal">
             <button id="bt-cores" onclick="cores()">Cores</button>
             <button onclick="negrito()">B</button>
             <button onclick="italico()">i</button>
-            <button onclick="fontes()">Fonte</button>
+           <!-- <button onclick="fontes()">Fonte</button> -->
             <div id="cores"> </div>
+            <select name="" id="fontes" onchange="recebefonte(this.value)">nome</select>
           <!-- <select name="" id=""> nome</select> -->
             <script src="tabelaDeCor.js"></script>
             <script src="tabelaFontes.js"></script>
