@@ -17,6 +17,6 @@ function mudarCor(cor )
     document.execCommand('foreColor', false, cor);
     
     
-}function fontes(){
-    document.execCommand('fontName',false,'sans-serif')
+}function center(){
+    document.execCommand('justifyCenter')
 }
