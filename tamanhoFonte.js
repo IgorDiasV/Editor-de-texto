@@ -17,5 +17,14 @@ let campoTexto = document.getElementById('campoTexto');
 document.addEventListener('keydown',
                          function(e)
                          {
- 
-})
+                           if(e.keyCode==13)
+                           {
+                            document.execCommand('insertHTML', false, '<br/>');
+                            e.preventDefault();    
+                           }
+                        if(e.keyCode==9)
+                        {
+                          document.execCommand('insertHTML', false, '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+                          e.preventDefault();
+                        }
+        })
