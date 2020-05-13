@@ -19,7 +19,7 @@ document.addEventListener('keydown',
                          {
                            if(e.keyCode==13)
                            {
-                            document.execCommand('insertHTML', false, '<br/>');
+                            document.execCommand('insertHTML', false, '<br><br>');
                             e.preventDefault();    
                            }
                         if(e.keyCode==9)

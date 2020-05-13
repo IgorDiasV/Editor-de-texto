@@ -6,7 +6,7 @@ for( var i=0 ; i<fontes.length;i++){
    d[i].innerHTML=fontes[i];
    sele.appendChild(d[i]);
   function recebefonte(valor){
-      alert(valor)
+     
     document.execCommand('fontName',false,valor)
   }
 }
